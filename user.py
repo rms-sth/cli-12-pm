@@ -1,7 +1,23 @@
 import sqlite3
 
 # git config --global user.name "Ramesh Pradhan"
-# git config --global user.email "MY_NAME@example.com"
+# git config --global user.email "pyrameshpradhan@gmail.com"
+# create account in github
+# create repository in github
+# git init
+# git add .
+# git commit -m "Your commit message"
+
+## copy paste from github repository created above
+# git remote add origin https://github.com/rms-sth/Python-Scripts.git
+# git push -u origin main
+
+### after changing any file
+# git status # checks what happened in the file
+# git diff
+# git add .
+# git commit -m "Your commit message"
+# git push origin
 
 def create_connection():
     try:
